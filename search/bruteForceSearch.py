@@ -34,6 +34,11 @@ def selfTest():
     b = [[1, 0], [0, 0]]
     c = [[0, 0], [0, 0]]
     d = [[1, 0, 0], [0, 0, 0], [0, 0, 1]]
+    e = [[1,0,0],[0,0,0]]
+    f = [[1,0],[0,0],[0,0]]
+    g = [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0]]
+    h = [[1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0], [1, 1, 1, 1]]
+    i = [[1,0],[0,0],[0,0]]
     print 'Search for b in a'
     r = bruteForceSearch(a, b)
     print r
@@ -49,6 +54,44 @@ def selfTest():
     print 'Search for c in d'
     r = bruteForceSearch(d, c)
     print r
+
+    print 'Search for c in d'
+    r = bruteForceSearch(d, c)
+    print r
+
+    print 'Search for e in a'
+    r = bruteForceSearch(a, e)
+    print r
+
+    print 'Search for e in d'
+    r = bruteForceSearch(d, e)
+    print r
+
+
+    print 'Search for e in g'
+    r = bruteForceSearch(g, e)
+    print r
+
+    print 'Search for f in g'
+    r = bruteForceSearch(g, f)
+    print r
+
+    print 'Search for i in g'
+    r = bruteForceSearch(g, i)
+    print r
+
+    print 'Search for e in h'
+    r = bruteForceSearch(h, e)
+    print r
+
+    print 'Search for f in h'
+    r = bruteForceSearch(h, f)
+    print r
+
+    print 'Search for i in h'
+    r = bruteForceSearch(h, i)
+    print r
+
 
 
 if __name__ == '__main__':

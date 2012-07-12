@@ -1,2 +1,5 @@
-x = 10, y = 10, rule = B3/S23
-$b3o2b3o$bo6bo$2bo4bo3$2bo4bo$bo6bo$b3o2b3o!
+#CXRLE Pos=-9,1
+x = 38, y = 8, rule = B3/S23
+b2o2b2o3b3o2b3o2b2o4b2o3bo4bo$2o4b2o2bo6bo2bobo2bobo2b2o4b2o$2bo2bo5bo
+4bo3bo6bo2bobo2bobo3$2bo2bo5bo4bo3bo6bo2bobo2bobo$2o4b2o2bo6bo2bobo2bo
+bo2b2o4b2o$b2o2b2o3b3o2b3o2b2o4b2o3bo4bo!
